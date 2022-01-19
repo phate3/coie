@@ -4,3 +4,5 @@
 
 Definitions using json schema for the contractual construction and 
 operation exchanges of information relating to physical real world assets.
+
+Supporting all stakeholders when developing an interoperable information management platform.
