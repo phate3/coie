@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tbc.com/contact.schema.json",
+  "title": "Contact",
+  "description": "A contact in the information exchange",
+  "type": "object",
+  "properties": {
+    "$comment": "removed CreatedOn, CreatedBy, changed to camelCase",
+    "email": {
+      "description": "The unique email for a contact on a contract / project",
+      "type": "string"
+    },
+    "category": {
+      "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-04/uniclass2015_ro_v1_5.xlsx code best describing contact",
+      "type": "string"
+    },
+    "company": {
+      "description": "Organisation that the contact record represents",
+      "type": "string"
+    },
+    "phone": {
+      "description": "Organisation that the contact record represents",
+      "type": "string"
+    }
+  },
+  "required": [ "email" , "category", "company", "phone"]
+}
