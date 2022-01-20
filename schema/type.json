@@ -5,7 +5,6 @@
   "description": "A record that describes the common characteristics of a group of components",
   "type": "object",
   "properties": {
-    "$comment": "removed CreatedOn, CreatedBy, changed to camelCase",
     "name": {
       "description": "The unique id for a component on a contract / project",
       "type": "string",
