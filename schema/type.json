@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://coie.uk/schema/type.json",
+  "$id": "https://www.coie.uk/schema/type.json",
   "title": "Type",
   "description": "A record that describes the common characteristics of a group of components",
   "type": "object",

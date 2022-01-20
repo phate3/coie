@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://coie.uk/schema/contact.json",
+  "$id": "https://www.coie.uk/schema/contact.json",
   "title": "Contact",
   "description": "A contact in the information exchange",
   "type": "object",

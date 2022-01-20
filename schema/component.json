@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://coie.uk/schema/component.json",
+  "$id": "https://www.coie.uk/schema/component.json",
   "title": "Component",
   "description": "A component in the information exchange, which importantly represents the smallest physical asset representation",
   "type": "object",
@@ -12,11 +12,11 @@
     },
     "typeReference": {
       "description": "the record that describes the common characteristics of a group of components",
-      "$ref": "https://coie.uk/schema/type.json"
+      "$ref": "https://www.coie.uk/schema/type.json"
     },
     "space": {
       "description": "the record that describes the space (room) where this component can be accessed",
-      "$ref": "https://coie.uk/schema/space.json"
+      "$ref": "https://www.coie.uk/schema/space.json"
     }
   },
   "required": [ "name" , "typeReference", "space"]
