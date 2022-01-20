@@ -25,6 +25,12 @@
     "warrantyDetails": {
       "description": "the record that describes the common characteristics of a group of components",
       "$ref": "https://tbc.com/warranty-details.json"
-  },
-  "required": [ "name" , "category", "manufacturer", "modelNumber"]
+    },
+    "required": [
+      "name",
+      "category",
+      "manufacturer",
+      "modelNumber"
+    ]
+  }
 }
