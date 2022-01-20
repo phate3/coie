@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tbc.com/component.schema.json",
+  "title": "Component",
+  "description": "A component in the information exchange, which importantly represents the smallest physical asset representation",
+  "type": "object",
+  "properties": {
+    "$comment": "removed CreatedOn, CreatedBy, description, changed to camelCase",
+    "name": {
+      "description": "The unique id for a component on a contract / project",
+      "type": "string"
+    },
+    "typeReference": {
+      "description": "the record that describes the common characteristics of a group of components",
+      "$ref": "https://tbc.com/type.schema.json"
+    },
+    "space": {
+      "description": "the record that describes the space (room) where this component can be accessed",
+      "$ref": "https://tbc.com/space.schema.json"
+    }
+  },
+  "required": [ "name" , "typeReference", "space"]
+}
