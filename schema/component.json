@@ -1,22 +1,22 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://tbc.com/component.schema.json",
+  "$id": "https://coie.uk/schema/component.json",
   "title": "Component",
   "description": "A component in the information exchange, which importantly represents the smallest physical asset representation",
   "type": "object",
   "properties": {
-    "$comment": "removed CreatedOn, CreatedBy, description, changed to camelCase",
     "name": {
       "description": "The unique id for a component on a contract / project",
-      "type": "string"
+      "type": "string",
+      "example": "FCU-01-0001"
     },
     "typeReference": {
       "description": "the record that describes the common characteristics of a group of components",
-      "$ref": "https://tbc.com/type.schema.json"
+      "$ref": "https://coie.uk/schema/type.json"
     },
     "space": {
       "description": "the record that describes the space (room) where this component can be accessed",
-      "$ref": "https://tbc.com/space.schema.json"
+      "$ref": "https://coie.uk/schema/space.json"
     }
   },
   "required": [ "name" , "typeReference", "space"]

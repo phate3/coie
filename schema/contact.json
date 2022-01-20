@@ -1,26 +1,30 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://tbc.com/contact.schema.json",
+  "$id": "https://coie.uk/schema/contact.json",
   "title": "Contact",
   "description": "A contact in the information exchange",
   "type": "object",
   "properties": {
-    "$comment": "removed CreatedOn, CreatedBy, changed to camelCase",
     "email": {
       "description": "The unique email for a contact on a contract / project",
-      "type": "string"
+      "type": "string",
+      "example": "email@home.com",
+      "pattern": "^\\S+@\\S+$"
     },
     "category": {
       "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-04/uniclass2015_ro_v1_5.xlsx code best describing contact",
-      "type": "string"
+      "type": "string",
+      "example": "Ro_10:Management roles"
     },
     "company": {
       "description": "Organisation that the contact record represents",
-      "type": "string"
+      "type": "string",
+      "example": "acme ltd"
     },
     "phone": {
       "description": "Organisation that the contact record represents",
-      "type": "string"
+      "type": "string",
+      "example": "+44 (0) 1234 222 333"
     }
   },
   "required": [ "email" , "category", "company", "phone"]
