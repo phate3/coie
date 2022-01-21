@@ -1,5 +1,6 @@
 {
   "type": "array",
+  "uniqueItems": true,
   "items": {
     "$ref": "https://www.coie.uk/schema/contact",
     "required": [

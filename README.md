@@ -33,42 +33,59 @@ Here is the General Email Regex (RFC 5322 Official Standard)
 Example COIE contact schema definition, with a single file you can state the shape of the object and implement basic validation (non semantic analysis):
 
 
-```{
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://www.coie.uk/schema/contact.json",
-  "title": "Contact",
-  "description": "A contact in the information exchange",
-  "type": "object",
-  "properties": {
-    "email": {
-      "description": "The unique email for a contact on a contract / project",
-      "type": "string",
-      "example": "email@home.com",
-      "pattern": "^\\S+@\\S+$"
+```
+{
+  "schema": {
+    "$id": "https://www.coie.uk/schema/contact.json",
+    "title": "Contact",
+    "description": "A contact in the information exchange",
+    "type": "object",
+    "properties": {
+      "email": {
+        "title": "Email",
+        "description": "The unique email for a contact on a contract / project",
+        "type": "string",
+        "example": "email@home.com",
+        "pattern": "^\\S+@\\S+$"
+      },
+      "category": {
+        "title": "Category",
+        "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-04/uniclass2015_ro_v1_5.xlsx code best describing contact",
+        "type": "string",
+        "enum": ["Ro_1", "Ro_2", "Ro_3"],
+        "example": "Ro_10:Management roles"
+      },
+      "company": {
+        "title": "Company",
+        "description": "Organisation that the contact record represents",
+        "type": "string",
+        "example": "acme ltd"
+      },
+      "phone": {
+        "title": "Phone",
+        "description": "Organisation that the contact record represents",
+        "type": "string",
+        "example": "+44 (0) 1234 222 333"
+      }
     },
-    "category": {
-      "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-04/uniclass2015_ro_v1_5.xlsx code best describing contact",
-      "type": "string",
-      "example": "Ro_10:Management roles"
-    },
-    "company": {
-      "description": "Organisation that the contact record represents",
-      "type": "string",
-      "example": "acme ltd"
-    },
-    "phone": {
-      "description": "Organisation that the contact record represents",
-      "type": "string",
-      "example": "+44 (0) 1234 222 333"
-    }
-  },
-  "required": [ "email" , "category", "company", "phone"]
-}
+    "required": [ "email" , "category", "company", "phone"]
+  }
+  }
 ```    
 
 
 ##### COIE-CORE
 Provides the base schema that forms the minimum technical requirement for an information exchange between two contracted parties (in the built environment, where the contract topic is about physical built assets)
+
+Using jsonschema as a base we set out the object that form the exchange model described by BS1192:4.
+
+Then including "title" tags and following we can generate a form:
+
+https://jsonform.github.io/jsonform/playground/
+
+`paste the code from above into the form website, you will now have generated a "COie Contact record"`
+
+
 
 ##### COIE-REQUIREMENT 
 Provides extensiblity required to extend COIE-CORE to suit a specific purpose. 
