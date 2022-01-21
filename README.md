@@ -13,6 +13,7 @@ COIE is written in JSON Schema and provides the ability to:
         Automated testing.
         Ensuring quality of client submitted data.
 
+COIE provides the ability to specify, procure, deliver and assure data in a single unambiguos, open format and interoperable language.
 
 COIE-CORE
 COIE-CORE is the base schema that provides the minimum technical requirement for an information exchange between two contracted parties (in the built environment, where the contract topic is about physical built assets)
