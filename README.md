@@ -73,8 +73,10 @@ Example COie contact schema definition, with a single file you can state the sha
   }
 ```    
 
-
 ##### COie-CORE
+
+schema will be live at www.coie.uk (not yet!)
+
 Provides the base schema that forms the minimum technical requirement for an information exchange between two contracted parties (in the built environment, where the contract topic is about physical built assets)
 
 Using jsonschema as a base we set out the object that form the exchange model described by BS1192:4.
