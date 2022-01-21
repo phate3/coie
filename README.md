@@ -1,4 +1,4 @@
-# coie-json
+# COie-json
 
 ## An open data standard supporting information exchange
 
@@ -7,7 +7,7 @@ operation exchanges of information relating to physical real world assets.
 
 (This schema has been developed with respect to BS1192:4, ISO 19650 and any UK annexes)
 
-COIE is written in JSON Schema and provides the ability to:
+COie is written in JSON Schema and provides the ability to:
 
     Describe your existing data format(s).
     Provides clear human- and machine- readable documentation.
@@ -30,13 +30,13 @@ Here is the General Email Regex (RFC 5322 Official Standard)
  
 ```(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])```
 
-Example COIE contact schema definition, with a single file you can state the shape of the object and implement basic validation (non semantic analysis):
+Example COie contact schema definition, with a single file you can state the shape of the object and implement basic validation (non semantic analysis):
 
 
 ```
 {
   "schema": {
-    "$id": "https://www.coie.uk/schema/contact.json",
+    "$id": "https://www.COie.uk/schema/contact.json",
     "title": "Contact",
     "description": "A contact in the information exchange",
     "type": "object",
@@ -74,7 +74,7 @@ Example COIE contact schema definition, with a single file you can state the sha
 ```    
 
 
-##### COIE-CORE
+##### COie-CORE
 Provides the base schema that forms the minimum technical requirement for an information exchange between two contracted parties (in the built environment, where the contract topic is about physical built assets)
 
 Using jsonschema as a base we set out the object that form the exchange model described by BS1192:4.
@@ -87,8 +87,8 @@ https://jsonform.github.io/jsonform/playground/
 
 
 
-##### COIE-REQUIREMENT 
-Provides extensiblity required to extend COIE-CORE to suit a specific purpose. 
+##### COie-REQUIREMENT 
+Provides extensiblity required to extend COie-CORE to suit a specific purpose. 
 
 
 
