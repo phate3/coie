@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+
+  "Type": {
+    "$id": "https://www.coie.uk/schema/type.json",
+    "title": "Type",
+    "description": "A record that describes the common characteristics of a group of components",
+    "type": "object",
+    "properties": {
+      "name": {
+        "description": "The unique id for a component on a contract / project",
+        "type": "string",
+        "example": "Type_FCU-400"
+      },
+      "category": {
+        "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-10/uniclass2015_pr_v1_24.xlsx",
+        "type": "string"
+      },
+      "manufacturer": {
+        "description": "the id of the space where the component can be accessed",
+        "type": "string"
+      },
+      "modelNumber": {
+        "description": "Organisation that the contact record represents",
+        "type": "string"
+      },
+      "warrantyDetails": {
+        "description": "the record that describes the common characteristics of a group of components",
+        "$ref": "https://tbc.com/warranty-details.json"
+      },
+      "required": [
+        "name",
+        "category",
+        "manufacturer",
+        "modelNumber"
+      ]
+    }
+  }
+
+
+}

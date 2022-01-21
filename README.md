@@ -26,3 +26,23 @@ COIE-REQUIREMENT
 Provides extensiblity required to extend COIE-CORE to suit a specific purpose. 
 
 https://www.coie.uk/
+
+
+# WORK IN PROGRESS
+
+Areas of Interest / Context:
+
+* Automating contracts for construction - NEC/JCT
+    * Specification of requirements
+    * Procurement of requirements
+    * Delivery of data (supporting information exchange)
+    * Assurance of data (supporting information exchange)   
+    
+* Automating project information management - (RIBA/BSRIA/?)
+    * information exchange and control points
+    * Data delivery assurance and validation
+
+ORGANISED BY:
+* DEFINITIONS
+* EXCHANGE MODEL
+* EXCHANGE MODEL REQUIREMENTS
