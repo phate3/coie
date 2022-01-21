@@ -17,7 +17,55 @@ COIE is written in JSON Schema and provides the ability to:
 
 #### The goal is to:
 
-Provide the ability to specify, procure, deliver and assure data in a single unambiguos, open format and interoperable language.
+Provide the ability to specify, procure, deliver and assure data in a single unambiguous, open format and interoperable language.
+
+The sample below is a machine readible (and fairly human readable) schema which enables the communication of the "shape" the data payload must adhere to. 
+
+* You can see it includes a set of properties (you might know these as excel "headings")
+* You can see that each property has a description, an example value and 
+* where possible validation rules for further "pattern" control 
+    * `"pattern": "^\\S+@\\S+$"` enables both front-end and back-end to check that the value provided is in basic email format (not to RFC)
+    
+Here is the General Email Regex (RFC 5322 Official Standard)
+ 
+```(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])```
+
+Example COIE contact schema definition, with a single file you can state the shape of the object and implement basic validation (non semantic analysis):
+
+
+```{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.coie.uk/schema/contact.json",
+  "title": "Contact",
+  "description": "A contact in the information exchange",
+  "type": "object",
+  "properties": {
+    "email": {
+      "description": "The unique email for a contact on a contract / project",
+      "type": "string",
+      "example": "email@home.com",
+      "pattern": "^\\S+@\\S+$"
+    },
+    "category": {
+      "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-04/uniclass2015_ro_v1_5.xlsx code best describing contact",
+      "type": "string",
+      "example": "Ro_10:Management roles"
+    },
+    "company": {
+      "description": "Organisation that the contact record represents",
+      "type": "string",
+      "example": "acme ltd"
+    },
+    "phone": {
+      "description": "Organisation that the contact record represents",
+      "type": "string",
+      "example": "+44 (0) 1234 222 333"
+    }
+  },
+  "required": [ "email" , "category", "company", "phone"]
+}
+```    
+
 
 ##### COIE-CORE
 Provides the base schema that forms the minimum technical requirement for an information exchange between two contracted parties (in the built environment, where the contract topic is about physical built assets)
