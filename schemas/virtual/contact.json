@@ -14,6 +14,7 @@
     "category": {
       "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-04/uniclass2015_ro_v1_5.xlsx code best describing contact",
       "type": "string",
+      "enum": ["Ro_1", "Ro_2", "Ro_3"],
       "example": "Ro_10:Management roles"
     },
     "company": {

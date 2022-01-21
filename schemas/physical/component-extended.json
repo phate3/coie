@@ -1,0 +1,9 @@
+{
+    "oneOf": [
+        {"$ref": "/schemas/component"},
+        {
+            "type": "array",
+            "items": {"$ref": "/schemas/component"}
+        }
+    ]
+}
