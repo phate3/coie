@@ -1,0 +1,72 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://example.com/object1642887693.json",
+	"title": "Root",
+	"type": "object",
+	"required": [
+		"Instruction",
+		"Contact",
+		"Component"
+	],
+	"properties": {
+		"Instruction": {
+			"$id": "#root/Instruction",
+			"title": "Instruction",
+			"type": "array",
+			"default": [],
+			"items":{
+				"$id": "#root/Instruction/items",
+				"title": "Items",
+				"type": "object",
+				"required": [
+				],
+				"properties": {
+				}
+			}
+
+		},
+		"Contact": {
+			"$id": "#root/Contact",
+			"title": "Contact",
+			"type": "array",
+			"default": [],
+			"items":{
+				"$id": "#root/Contact/items",
+				"title": "Items",
+				"type": "object",
+				"required": [
+					"Email"
+				],
+				"properties": {
+					"Email": {
+					  "description": "The unique email for a contact on a contract / project",
+					  "type": "string",
+					  "example": "email@home.com",
+					  "pattern": "^\\S+@\\S+$"
+					}
+				},
+				"additionalProperties": true
+
+			},
+			"uniqueItems": true
+		},
+
+		"Component": {
+			"$id": "#root/Component",
+			"title": "Component",
+			"type": "array",
+			"default": [],
+			"items":{
+				"$id": "#root/Component/items",
+				"title": "Items",
+				"type": "object",
+				"required": [
+				],
+				"properties": {
+				}
+			}
+
+		}
+	}
+}

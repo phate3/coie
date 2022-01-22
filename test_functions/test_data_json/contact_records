@@ -1,26 +1,88 @@
-[
-  {
-    "email": "John@home.com",
-    "category": "Ro_1",
-    "company": "INFENG",
-    "phone": "Ro_1"
-  },
-  {
-    "email": "John@home.com",
-    "category": "Ro_1",
-    "company": "INFENG",
-    "phone": "Ro_1"
-  },
-  {
-    "email": "silly_fool-emailz",
-    "category": "Ro_1",
-    "company": "INFENG",
-    "phone": "Ro_1"
-  },
-  {
-    "email": "John@home.com",
-    "category": "not-on-the-category-list",
-    "company": "INFENG",
-    "phone": "Ro_1"
-  }
-]
+{
+  "Contacts": [
+    {
+      "Email": "eim.defra.gov.uk",
+      "CreatedBy": "eim.environment-agency.gov.uk",
+      "CreatedOn": "2021-11-01T10:12:49",
+      "Category": "Ro_30_40_86 Supplier",
+      "Company": "DEFRA",
+      "Phone": "",
+      "ExternalSystem": "",
+      "ExternalObject": "",
+      "ExternalIdentifier": "",
+      "Department": "",
+      "OrganizationCode": "",
+      "GivenName": "",
+      "FamilyName": "",
+      "Street": "",
+      "PostalBox": "",
+      "Town": "",
+      "StateRegion": "",
+      "PostalCode": "",
+      "Country": ""
+    },
+    {
+      "Email": "eim.environment-agency.gov.uk",
+      "CreatedBy": "eim.environment-agency.gov.uk",
+      "CreatedOn": "2021-11-01T10:12:49",
+      "Category": "Ro_30_10_67 Project manager",
+      "Company": "Environment Agency",
+      "Phone": "",
+      "ExternalSystem": "",
+      "ExternalObject": "",
+      "ExternalIdentifier": "",
+      "Department": "",
+      "OrganizationCode": "",
+      "GivenName": "",
+      "FamilyName": "",
+      "Street": "",
+      "PostalBox": "",
+      "Town": "",
+      "StateRegion": "",
+      "PostalCode": "",
+      "Country": ""
+    },
+    {
+      "Email": "eim.lingwellconsulting.com",
+      "CreatedBy": "eim.environment-agency.gov.uk",
+      "CreatedOn": "2021-11-01T10:12:49",
+      "Category": "Ro_30_10_67 Project manager",
+      "Company": "The Construction Industry Council",
+      "Phone": "",
+      "ExternalSystem": "",
+      "ExternalObject": "",
+      "ExternalIdentifier": "",
+      "Department": "",
+      "OrganizationCode": "",
+      "GivenName": "",
+      "FamilyName": "",
+      "Street": "",
+      "PostalBox": "",
+      "Town": "",
+      "StateRegion": "",
+      "PostalCode": "",
+      "Country": ""
+    },
+    {
+      "Email": "sim.binnies.com",
+      "CreatedBy": "eim.environment-agency.gov.uk",
+      "CreatedOn": "2021-11-01T10:12:49",
+      "Category": "Ro_30_40_86 Supplier",
+      "Company": "Binnies UK Ltd",
+      "Phone": "",
+      "ExternalSystem": "",
+      "ExternalObject": "",
+      "ExternalIdentifier": "",
+      "Department": "",
+      "OrganizationCode": "",
+      "GivenName": "",
+      "FamilyName": "",
+      "Street": "",
+      "PostalBox": "",
+      "Town": "",
+      "StateRegion": "",
+      "PostalCode": "",
+      "Country": ""
+    }
+  ]
+}
