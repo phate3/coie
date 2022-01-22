@@ -24,7 +24,6 @@
 				"properties": {
 				}
 			}
-
 		},
 		"Contact": {
 			"$id": "#root/Contact",
@@ -32,26 +31,10 @@
 			"type": "array",
 			"default": [],
 			"items":{
-				"$id": "#root/Contact/items",
-				"title": "Items",
-				"type": "object",
-				"required": [
-					"Email"
-				],
-				"properties": {
-					"Email": {
-					  "description": "The unique email for a contact on a contract / project",
-					  "type": "string",
-					  "example": "email@home.com",
-					  "pattern": "^\\S+@\\S+$"
-					}
-				},
-				"additionalProperties": true
-
+				"$ref": "https://www.coie.uk/schema/contact"
 			},
 			"uniqueItems": true
 		},
-
 		"Component": {
 			"$id": "#root/Component",
 			"title": "Component",
@@ -66,7 +49,6 @@
 				"properties": {
 				}
 			}
-
 		}
 	}
 }

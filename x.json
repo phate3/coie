@@ -1,57 +1,53 @@
 {
-  "type": "array",
-  "uniqueItems": true,
-  "items":
-    {
-      "$schema": "https://json-schema.org/draft/2020-12/schema",
-      "$id": "https://www.coie.uk/schema/contact.json",
-      "title": "Contact",
-      "description": "A contact in the information exchange",
-      "type": "object",
-      "properties": {
-        "Email": {
-          "description": "The unique email for a contact on a contract / project",
-          "type": "string",
-          "example": "email@home.com",
-          "pattern": "^\\S+@\\S+$"
-        },
-        "CreatedBy": {
-          "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-04/uniclass2015_ro_v1_5.xlsx code best describing contact",
-          "type": "string",
-          "enum": ["Ro_1", "Ro_2", "Ro_3"],
-          "example": "Ro_10:Management roles"
-        },
-        "CreatedOn": {
-          "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-04/uniclass2015_ro_v1_5.xlsx code best describing contact",
-          "type": "string",
-          "enum": ["Ro_1", "Ro_2", "Ro_3"],
-          "example": "Ro_10:Management roles"
-        },
-        "Category": {
-          "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-04/uniclass2015_ro_v1_5.xlsx code best describing contact",
-          "type": "string",
-          "enum": ["Ro_1", "Ro_2", "Ro_3"],
-          "example": "Ro_10:Management roles"
-        },
-        "Company": {
-          "description": "Organisation that the contact record represents",
-          "type": "string",
-          "example": "acme ltd"
-        },
-        "Phone": {
-          "description": "Organisation that the contact record represents",
-          "type": "string",
-          "example": "+44 (0) 1234 222 333"
-        }
-      },
-      "required": [
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.coie.uk/schema/contact.json",
+  "title": "Contact",
+  "description": "A contact in the information exchange",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
         "Email" ,
         "CreatedBy",
         "CreatedOn",
         "Category",
         "Company",
         "Phone"
-        ]
+        ],
+  "properties": {
+    "Email": {
+      "description": "The unique email for a contact on a contract / project",
+      "type": "string",
+      "example": "email@home.com",
+      "pattern": "^\\S+@\\S+$"
+    },
+    "CreatedBy": {
+      "description": "The unique email for a contact on a contract / project",
+      "type": "string",
+      "example": "email@home.com",
+      "pattern": "^\\S+@\\S+$"
+    },
+    "CreatedOn": {
+      "description": "CreateOn date",
+      "type": "string",
+      "example": "2022-01-01",
+      "pattern": "^([\\+-]?\\d{4}(?!\\d{2}\\b))((-?)((0[1-9]|1[0-2])(\\3([12]\\d|0[1-9]|3[01]))?|W([0-4]\\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\\d|[12]\\d{2}|3([0-5]\\d|6[1-6])))([T\\s]((([01]\\d|2[0-3])((:?)[0-5]\\d)?|24\\:?00)([\\.,]\\d+(?!:))?)?(\\17[0-5]\\d([\\.,]\\d+)?)?([zZ]|([\\+-])([01]\\d|2[0-3]):?([0-5]\\d)?)?)?)?$"
+    },
+    "Category": {
+      "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-04/uniclass2015_ro_v1_5.xlsx code best describing contact",
+      "type": "string",
+      "example": "Ro_10:Management roles"
+    },
+    "Company": {
+      "description": "Organisation that the contact record represents",
+      "type": "string",
+      "example": "acme ltd"
+    },
+    "Phone": {
+      "description": "Organisation that the contact record represents",
+      "type": "string",
+      "example": "+44 (0) 1234 222 333"
     }
-
   }
+}
+
+
