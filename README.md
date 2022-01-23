@@ -20,6 +20,8 @@ COie is written in JSON Schema and provides the ability to:
 
 Example workbook schema: https://www.coie.uk/schema/workbook-schema
 
+`json-schema does not fully support unique item properties check. AJV has an implementation of uniqueItemProperties.`
+
 ```
 - workbook-schema
     [Validation] All named data sets (sheets) are required (even if empty)

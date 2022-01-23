@@ -50,6 +50,27 @@
       "Country": ""
     },
     {
+      "Email": "eim@dept.gov.uk",
+      "CreatedBy": "eim@dept.gov.uk",
+      "CreatedOn": "2021-11-01T10:12:49",
+      "Category": "Ro_32220_40_86 Supplier",
+      "Company": "dept",
+      "Phone": "",
+      "ExternalSystem": "",
+      "ExternalObject": "",
+      "ExternalIdentifier": "",
+      "Department": "",
+      "OrganizationCode": "",
+      "GivenName": "",
+      "FamilyName": "",
+      "Street": "",
+      "PostalBox": "",
+      "Town": "",
+      "StateRegion": "",
+      "PostalCode": "",
+      "Country": ""
+    },
+    {
       "Email": "eim1@dept.gov.uk",
       "CreatedBy": "eim@dept.gov.uk",
       "CreatedOn": "2021-11-01T10:12:49",
@@ -119,7 +140,7 @@
   "Region": [
     {
     "Name":"3C1",
-      "CreatedBy":"eim.environment-agency.gov.uk",
+      "CreatedBy":"eim@environment-agency.gov.uk",
       "CreatedOn":"2021-08-27T10:31:00",
       "Category":"Location",
       "ExtSystem":"",
@@ -131,7 +152,7 @@
     },
     {
     "Name":"3C2",
-      "CreatedBy":"eim.environment-agency.gov.uk",
+      "CreatedBy":"eim@environment-agency.gov.uk",
       "CreatedOn":"2021-08-27T10:31:00",
       "Category":"Location",
       "ExtSystem":"",
@@ -142,7 +163,37 @@
       "Height":""
     }
   ],
-  "Feature": [{}],
+  "Feature": [{
+    "Name":"CP0001",
+    "CreatedBy":"sim@binnies.com",
+    "CreatedOn":"2021-08-27T12:47:33",
+    "Category":"En_32_95_59",
+    "RegionName":"3C2",
+    "Description":"Channel Open Channel",
+    "ExtSystem":"",
+    "ExtObject":"",
+    "ExtIdentifier":"",
+    "RoomTag":"",
+    "UsableHeight":"",
+    "GrossArea":"",
+    "NetArea":""
+    },
+    {
+    "Name":"CP0002",
+    "CreatedBy":"sim@binnies.com",
+    "CreatedOn":"2021-09-17T15:15:02",
+    "Category":"En_32_95_59",
+    "RegionName":"3C2",
+    "Description":"Channel Open Channel",
+    "ExtSystem":"",
+    "ExtObject":"",
+    "ExtIdentifier":"",
+    "RoomTag":"",
+    "UsableHeight":"",
+    "GrossArea":"",
+    "NetArea":""
+    }
+  ],
   "Zone": [{}],
   "Type": [{}],
   "Component": [

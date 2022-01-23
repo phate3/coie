@@ -1,0 +1,1626 @@
+[
+  {
+    "Code": "Ro_10",
+    "Group": "10",
+    "Title": "Management roles",
+    "NBS Code": "",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_10_10",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "Organization roles",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_10_10_05",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "05",
+    "NRM": "Associate"
+  },
+  {
+    "Code": "Ro_10_10_12",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "12",
+    "NRM": "Chairman"
+  },
+  {
+    "Code": "Ro_10_10_14",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "14",
+    "NRM": "Chief executive officer"
+  },
+  {
+    "Code": "Ro_10_10_16",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "16",
+    "NRM": "Chief financial officer"
+  },
+  {
+    "Code": "Ro_10_10_18",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "18",
+    "NRM": "Chief operating officer"
+  },
+  {
+    "Code": "Ro_10_10_20",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "20",
+    "NRM": "Coordinator"
+  },
+  {
+    "Code": "Ro_10_10_25",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "25",
+    "NRM": "Director"
+  },
+  {
+    "Code": "Ro_10_10_30",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "30",
+    "NRM": "Executive director"
+  },
+  {
+    "Code": "Ro_10_10_50",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "50",
+    "NRM": "Manager"
+  },
+  {
+    "Code": "Ro_10_10_53",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "53",
+    "NRM": "Managing director"
+  },
+  {
+    "Code": "Ro_10_10_58",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "58",
+    "NRM": "Non-executive director"
+  },
+  {
+    "Code": "Ro_10_10_60",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "60",
+    "NRM": "Partner"
+  },
+  {
+    "Code": "Ro_10_10_65",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "65",
+    "NRM": "President"
+  },
+  {
+    "Code": "Ro_10_10_70",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "70",
+    "NRM": "Principal"
+  },
+  {
+    "Code": "Ro_10_10_88",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "88",
+    "NRM": "Technician"
+  },
+  {
+    "Code": "Ro_10_10_94",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "94",
+    "NRM": "Vice chairman"
+  },
+  {
+    "Code": "Ro_10_10_95",
+    "Group": "10",
+    "Title": "10",
+    "NBS Code": "95",
+    "NRM": "Vice president"
+  },
+  {
+    "Code": "Ro_10_20",
+    "Group": "10",
+    "Title": "20",
+    "NBS Code": "Client roles",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_10_20_14",
+    "Group": "10",
+    "Title": "20",
+    "NBS Code": "14",
+    "NRM": "Client (K)"
+  },
+  {
+    "Code": "Ro_10_20_15",
+    "Group": "10",
+    "Title": "20",
+    "NBS Code": "15",
+    "NRM": "Client advisor"
+  },
+  {
+    "Code": "Ro_10_20_16",
+    "Group": "10",
+    "Title": "20",
+    "NBS Code": "16",
+    "NRM": "Client representative"
+  },
+  {
+    "Code": "Ro_10_20_26",
+    "Group": "10",
+    "Title": "20",
+    "NBS Code": "26",
+    "NRM": "Employer"
+  },
+  {
+    "Code": "Ro_10_20_88",
+    "Group": "10",
+    "Title": "20",
+    "NBS Code": "88",
+    "NRM": "Technical advisor"
+  },
+  {
+    "Code": "Ro_10_30",
+    "Group": "10",
+    "Title": "30",
+    "NBS Code": "Asset management roles",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_10_30_02",
+    "Group": "10",
+    "Title": "30",
+    "NBS Code": "02",
+    "NRM": "Asset assurance manager"
+  },
+  {
+    "Code": "Ro_10_30_10",
+    "Group": "10",
+    "Title": "30",
+    "NBS Code": "10",
+    "NRM": "Built asset security manager"
+  },
+  {
+    "Code": "Ro_10_30_14",
+    "Group": "10",
+    "Title": "30",
+    "NBS Code": "14",
+    "NRM": "Chief information officer"
+  },
+  {
+    "Code": "Ro_10_30_21",
+    "Group": "10",
+    "Title": "30",
+    "NBS Code": "21",
+    "NRM": "Asset data governance manager"
+  },
+  {
+    "Code": "Ro_10_30_27",
+    "Group": "10",
+    "Title": "30",
+    "NBS Code": "27",
+    "NRM": "Education consultant"
+  },
+  {
+    "Code": "Ro_10_30_42",
+    "Group": "10",
+    "Title": "30",
+    "NBS Code": "42",
+    "NRM": "Investment consultant"
+  },
+  {
+    "Code": "Ro_10_30_50",
+    "Group": "10",
+    "Title": "30",
+    "NBS Code": "50",
+    "NRM": "Asset manager"
+  },
+  {
+    "Code": "Ro_10_30_78",
+    "Group": "10",
+    "Title": "30",
+    "NBS Code": "78",
+    "NRM": "Soft landings champion"
+  },
+  {
+    "Code": "Ro_10_30_80",
+    "Group": "10",
+    "Title": "30",
+    "NBS Code": "80",
+    "NRM": "Asset standards manager"
+  },
+  {
+    "Code": "Ro_10_30_88",
+    "Group": "10",
+    "Title": "30",
+    "NBS Code": "88",
+    "NRM": "Technology consultant"
+  },
+  {
+    "Code": "Ro_10_40",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "Operation management roles",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_10_40_01",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "01",
+    "NRM": "Access manager"
+  },
+  {
+    "Code": "Ro_10_40_11",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "11",
+    "NRM": "Catering manager"
+  },
+  {
+    "Code": "Ro_10_40_20",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "20",
+    "NRM": "Configuration change manager"
+  },
+  {
+    "Code": "Ro_10_40_22",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "22",
+    "NRM": "Cost manager"
+  },
+  {
+    "Code": "Ro_10_40_24",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "24",
+    "NRM": "Demand manager"
+  },
+  {
+    "Code": "Ro_10_40_28",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "28",
+    "NRM": "Energy manager"
+  },
+  {
+    "Code": "Ro_10_40_30",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "30",
+    "NRM": "Facilities manager (F)"
+  },
+  {
+    "Code": "Ro_10_40_32",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "32",
+    "NRM": "Fleet manager"
+  },
+  {
+    "Code": "Ro_10_40_36",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "36",
+    "NRM": "Health and safety manager"
+  },
+  {
+    "Code": "Ro_10_40_43",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "43",
+    "NRM": "IT business analyst"
+  },
+  {
+    "Code": "Ro_10_40_47",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "47",
+    "NRM": "Legal representative"
+  },
+  {
+    "Code": "Ro_10_40_48",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "48",
+    "NRM": "Logistics manager"
+  },
+  {
+    "Code": "Ro_10_40_49",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "49",
+    "NRM": "Maintenance planner"
+  },
+  {
+    "Code": "Ro_10_40_50",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "50",
+    "NRM": "Maintenance provider"
+  },
+  {
+    "Code": "Ro_10_40_52",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "52",
+    "NRM": "Management consultant"
+  },
+  {
+    "Code": "Ro_10_40_53",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "53",
+    "NRM": "Marketing consultant"
+  },
+  {
+    "Code": "Ro_10_40_65",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "65",
+    "NRM": "Procurement consultant"
+  },
+  {
+    "Code": "Ro_10_40_74",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "74",
+    "NRM": "Safety manager"
+  },
+  {
+    "Code": "Ro_10_40_76",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "76",
+    "NRM": "Security consultant"
+  },
+  {
+    "Code": "Ro_10_40_86",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "86",
+    "NRM": "Timetable assurance coordinator"
+  },
+  {
+    "Code": "Ro_10_40_88",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "88",
+    "NRM": "Traffic consultant"
+  },
+  {
+    "Code": "Ro_10_40_90",
+    "Group": "10",
+    "Title": "40",
+    "NBS Code": "90",
+    "NRM": "Transportation manager"
+  },
+  {
+    "Code": "Ro_10_80",
+    "Group": "10",
+    "Title": "80",
+    "NBS Code": "Support roles",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_10_80_25",
+    "Group": "10",
+    "Title": "80",
+    "NBS Code": "25",
+    "NRM": "Editor"
+  },
+  {
+    "Code": "Ro_10_80_90",
+    "Group": "10",
+    "Title": "80",
+    "NBS Code": "90",
+    "NRM": "Technical author"
+  },
+  {
+    "Code": "Ro_30",
+    "Group": "30",
+    "Title": "Delivery roles",
+    "NBS Code": "",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_30_10",
+    "Group": "30",
+    "Title": "10",
+    "NBS Code": "Delivery team roles",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_30_10_13",
+    "Group": "30",
+    "Title": "10",
+    "NBS Code": "13",
+    "NRM": "Clerk of works"
+  },
+  {
+    "Code": "Ro_30_10_17",
+    "Group": "30",
+    "Title": "10",
+    "NBS Code": "17",
+    "NRM": "Commissioning engineer"
+  },
+  {
+    "Code": "Ro_30_10_19",
+    "Group": "30",
+    "Title": "10",
+    "NBS Code": "19",
+    "NRM": "Contract administrator"
+  },
+  {
+    "Code": "Ro_30_10_20",
+    "Group": "30",
+    "Title": "10",
+    "NBS Code": "20",
+    "NRM": "Contractor (W)"
+  },
+  {
+    "Code": "Ro_30_10_22",
+    "Group": "30",
+    "Title": "10",
+    "NBS Code": "22",
+    "NRM": "Cost consultant"
+  },
+  {
+    "Code": "Ro_30_10_27",
+    "Group": "30",
+    "Title": "10",
+    "NBS Code": "27",
+    "NRM": "Employer's agent"
+  },
+  {
+    "Code": "Ro_30_10_36",
+    "Group": "30",
+    "Title": "10",
+    "NBS Code": "36",
+    "NRM": "Health and safety consultant"
+  },
+  {
+    "Code": "Ro_30_10_42",
+    "Group": "30",
+    "Title": "10",
+    "NBS Code": "42",
+    "NRM": "Information manager"
+  },
+  {
+    "Code": "Ro_30_10_43",
+    "Group": "30",
+    "Title": "10",
+    "NBS Code": "43",
+    "NRM": "Insurance consultant"
+  },
+  {
+    "Code": "Ro_30_10_47",
+    "Group": "30",
+    "Title": "10",
+    "NBS Code": "47",
+    "NRM": "Legal consultant"
+  },
+  {
+    "Code": "Ro_30_10_67",
+    "Group": "30",
+    "Title": "10",
+    "NBS Code": "67",
+    "NRM": "Project manager"
+  },
+  {
+    "Code": "Ro_30_10_85",
+    "Group": "30",
+    "Title": "10",
+    "NBS Code": "85",
+    "NRM": "Sub-contractor (X)"
+  },
+  {
+    "Code": "Ro_30_30",
+    "Group": "30",
+    "Title": "30",
+    "NBS Code": "Official roles",
+    "NRM": "00-05-20/200 Statutory roles;"
+  },
+  {
+    "Code": "Ro_30_30_09",
+    "Group": "30",
+    "Title": "30",
+    "NBS Code": "09",
+    "NRM": "Building control officer"
+  },
+  {
+    "Code": "Ro_30_30_16",
+    "Group": "30",
+    "Title": "30",
+    "NBS Code": "16",
+    "NRM": "Conservation officer"
+  },
+  {
+    "Code": "Ro_30_30_20",
+    "Group": "30",
+    "Title": "30",
+    "NBS Code": "20",
+    "NRM": "Development control officer"
+  },
+  {
+    "Code": "Ro_30_30_22",
+    "Group": "30",
+    "Title": "30",
+    "NBS Code": "22",
+    "NRM": "Dispute resolution officer"
+  },
+  {
+    "Code": "Ro_30_30_26",
+    "Group": "30",
+    "Title": "30",
+    "NBS Code": "26",
+    "NRM": "Environmental officer"
+  },
+  {
+    "Code": "Ro_30_30_29",
+    "Group": "30",
+    "Title": "30",
+    "NBS Code": "29",
+    "NRM": "Flood and coastal risk management officer"
+  },
+  {
+    "Code": "Ro_30_30_36",
+    "Group": "30",
+    "Title": "30",
+    "NBS Code": "36",
+    "NRM": "Heritage officer"
+  },
+  {
+    "Code": "Ro_30_30_60",
+    "Group": "30",
+    "Title": "30",
+    "NBS Code": "60",
+    "NRM": "Party wall surveyor"
+  },
+  {
+    "Code": "Ro_30_30_65",
+    "Group": "30",
+    "Title": "30",
+    "NBS Code": "65",
+    "NRM": "Planning officer"
+  },
+  {
+    "Code": "Ro_30_30_67",
+    "Group": "30",
+    "Title": "30",
+    "NBS Code": "67",
+    "NRM": "Principal contractor"
+  },
+  {
+    "Code": "Ro_30_30_68",
+    "Group": "30",
+    "Title": "30",
+    "NBS Code": "68",
+    "NRM": "Principal designer"
+  },
+  {
+    "Code": "Ro_30_40",
+    "Group": "30",
+    "Title": "40",
+    "NBS Code": "Supplier roles",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_30_40_36",
+    "Group": "30",
+    "Title": "40",
+    "NBS Code": "36",
+    "NRM": "Hardware vendor"
+  },
+  {
+    "Code": "Ro_30_40_40",
+    "Group": "30",
+    "Title": "40",
+    "NBS Code": "40",
+    "NRM": "Importer"
+  },
+  {
+    "Code": "Ro_30_40_54",
+    "Group": "30",
+    "Title": "40",
+    "NBS Code": "54",
+    "NRM": "Manufacturer"
+  },
+  {
+    "Code": "Ro_30_40_56",
+    "Group": "30",
+    "Title": "40",
+    "NBS Code": "56",
+    "NRM": "Nominated supplier"
+  },
+  {
+    "Code": "Ro_30_40_79",
+    "Group": "30",
+    "Title": "40",
+    "NBS Code": "79",
+    "NRM": "Software vendor"
+  },
+  {
+    "Code": "Ro_30_40_86",
+    "Group": "30",
+    "Title": "40",
+    "NBS Code": "86",
+    "NRM": "Supplier"
+  },
+  {
+    "Code": "Ro_30_50",
+    "Group": "30",
+    "Title": "50",
+    "NBS Code": "Team lead roles",
+    "NRM": "00-05-20/115 Management and delivery roles;"
+  },
+  {
+    "Code": "Ro_30_50_04",
+    "Group": "30",
+    "Title": "50",
+    "NBS Code": "04",
+    "NRM": "Asset management lead"
+  },
+  {
+    "Code": "Ro_30_50_19",
+    "Group": "30",
+    "Title": "50",
+    "NBS Code": "19",
+    "NRM": "Construction lead"
+  },
+  {
+    "Code": "Ro_30_50_25",
+    "Group": "30",
+    "Title": "50",
+    "NBS Code": "25",
+    "NRM": "Design lead"
+  },
+  {
+    "Code": "Ro_30_50_61",
+    "Group": "30",
+    "Title": "50",
+    "NBS Code": "61",
+    "NRM": "Operation lead"
+  },
+  {
+    "Code": "Ro_30_50_69",
+    "Group": "30",
+    "Title": "50",
+    "NBS Code": "69",
+    "NRM": "Programme lead"
+  },
+  {
+    "Code": "Ro_30_50_70",
+    "Group": "30",
+    "Title": "50",
+    "NBS Code": "70",
+    "NRM": "Project lead"
+  },
+  {
+    "Code": "Ro_30_50_90",
+    "Group": "30",
+    "Title": "50",
+    "NBS Code": "90",
+    "NRM": "Task team lead"
+  },
+  {
+    "Code": "Ro_50",
+    "Group": "50",
+    "Title": "Design roles",
+    "NBS Code": "00-05-20/250 Design roles;",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_50_10",
+    "Group": "50",
+    "Title": "10",
+    "NBS Code": "Building design roles",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_50_10_01",
+    "Group": "50",
+    "Title": "10",
+    "NBS Code": "01",
+    "NRM": "Access consultant"
+  },
+  {
+    "Code": "Ro_50_10_03",
+    "Group": "50",
+    "Title": "10",
+    "NBS Code": "03",
+    "NRM": "Architect (A)"
+  },
+  {
+    "Code": "Ro_50_10_04",
+    "Group": "50",
+    "Title": "10",
+    "NBS Code": "04",
+    "NRM": "Architectural designer"
+  },
+  {
+    "Code": "Ro_50_10_05",
+    "Group": "50",
+    "Title": "10",
+    "NBS Code": "05",
+    "NRM": "Architectural technologist"
+  },
+  {
+    "Code": "Ro_50_10_10",
+    "Group": "50",
+    "Title": "10",
+    "NBS Code": "10",
+    "NRM": "Building designer"
+  },
+  {
+    "Code": "Ro_50_10_11",
+    "Group": "50",
+    "Title": "10",
+    "NBS Code": "11",
+    "NRM": "Catering consultant"
+  },
+  {
+    "Code": "Ro_50_10_14",
+    "Group": "50",
+    "Title": "10",
+    "NBS Code": "14",
+    "NRM": "Cladding designer"
+  },
+  {
+    "Code": "Ro_50_10_30",
+    "Group": "50",
+    "Title": "10",
+    "NBS Code": "30",
+    "NRM": "Fittings, furniture and equipment (FF&E) consultant"
+  },
+  {
+    "Code": "Ro_50_10_43",
+    "Group": "50",
+    "Title": "10",
+    "NBS Code": "43",
+    "NRM": "Interior designer (I)"
+  },
+  {
+    "Code": "Ro_50_10_45",
+    "Group": "50",
+    "Title": "10",
+    "NBS Code": "45",
+    "NRM": "Kitchen designer"
+  },
+  {
+    "Code": "Ro_50_10_50",
+    "Group": "50",
+    "Title": "10",
+    "NBS Code": "50",
+    "NRM": "Lighting designer"
+  },
+  {
+    "Code": "Ro_50_10_80",
+    "Group": "50",
+    "Title": "10",
+    "NBS Code": "80",
+    "NRM": "Signage designer"
+  },
+  {
+    "Code": "Ro_50_20",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "Engineering design roles",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_50_20_02",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "02",
+    "NRM": "Acoustic engineer"
+  },
+  {
+    "Code": "Ro_50_20_04",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "04",
+    "NRM": "Audiovisual consultant"
+  },
+  {
+    "Code": "Ro_50_20_06",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "06",
+    "NRM": "Bridge engineer"
+  },
+  {
+    "Code": "Ro_50_20_08",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "08",
+    "NRM": "Building services engineer"
+  },
+  {
+    "Code": "Ro_50_20_11",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "11",
+    "NRM": "Civil engineer (C)"
+  },
+  {
+    "Code": "Ro_50_20_24",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "24",
+    "NRM": "Demolition engineer"
+  },
+  {
+    "Code": "Ro_50_20_28",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "28",
+    "NRM": "Drainage engineer (D)"
+  },
+  {
+    "Code": "Ro_50_20_30",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "30",
+    "NRM": "Electrical services engineer (E)"
+  },
+  {
+    "Code": "Ro_50_20_31",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "31",
+    "NRM": "Electronics engineer"
+  },
+  {
+    "Code": "Ro_50_20_33",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "33",
+    "NRM": "Fire engineer"
+  },
+  {
+    "Code": "Ro_50_20_37",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "37",
+    "NRM": "Geotechnical engineer"
+  },
+  {
+    "Code": "Ro_50_20_40",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "40",
+    "NRM": "Heating, ventilation and air conditioning engineer (H)"
+  },
+  {
+    "Code": "Ro_50_20_41",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "41",
+    "NRM": "Highways engineer (D)"
+  },
+  {
+    "Code": "Ro_50_20_42",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "42",
+    "NRM": "Hydraulic engineer"
+  },
+  {
+    "Code": "Ro_50_20_53",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "53",
+    "NRM": "Mechanical, electrical, instrumentation, control and automation (MEICA) engineer"
+  },
+  {
+    "Code": "Ro_50_20_54",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "54",
+    "NRM": "Mechanical services engineer (M)"
+  },
+  {
+    "Code": "Ro_50_20_59",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "59",
+    "NRM": "Overhead wires engineer"
+  },
+  {
+    "Code": "Ro_50_20_65",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "65",
+    "NRM": "Process engineer"
+  },
+  {
+    "Code": "Ro_50_20_68",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "68",
+    "NRM": "Public health engineer (P)"
+  },
+  {
+    "Code": "Ro_50_20_70",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "70",
+    "NRM": "Rail engineer"
+  },
+  {
+    "Code": "Ro_50_20_72",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "72",
+    "NRM": "Reliability engineer"
+  },
+  {
+    "Code": "Ro_50_20_74",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "74",
+    "NRM": "Rolling stock engineer"
+  },
+  {
+    "Code": "Ro_50_20_79",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "79",
+    "NRM": "Signalling engineer"
+  },
+  {
+    "Code": "Ro_50_20_83",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "83",
+    "NRM": "Structural engineer (S)"
+  },
+  {
+    "Code": "Ro_50_20_86",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "86",
+    "NRM": "Systems engineer"
+  },
+  {
+    "Code": "Ro_50_20_88",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "88",
+    "NRM": "Telecommunication engineer"
+  },
+  {
+    "Code": "Ro_50_20_90",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "90",
+    "NRM": "Traffic engineer"
+  },
+  {
+    "Code": "Ro_50_20_91",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "91",
+    "NRM": "Tunnel engineer"
+  },
+  {
+    "Code": "Ro_50_20_96",
+    "Group": "50",
+    "Title": "20",
+    "NBS Code": "96",
+    "NRM": "Water services engineer"
+  },
+  {
+    "Code": "Ro_50_30",
+    "Group": "50",
+    "Title": "30",
+    "NBS Code": "Environmental design roles",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_50_30_04",
+    "Group": "50",
+    "Title": "30",
+    "NBS Code": "04",
+    "NRM": "Arboriculturalist"
+  },
+  {
+    "Code": "Ro_50_30_25",
+    "Group": "50",
+    "Title": "30",
+    "NBS Code": "25",
+    "NRM": "Ecologist"
+  },
+  {
+    "Code": "Ro_50_30_33",
+    "Group": "50",
+    "Title": "30",
+    "NBS Code": "33",
+    "NRM": "Garden designer"
+  },
+  {
+    "Code": "Ro_50_30_47",
+    "Group": "50",
+    "Title": "30",
+    "NBS Code": "47",
+    "NRM": "Landscape architect (L)"
+  },
+  {
+    "Code": "Ro_50_30_48",
+    "Group": "50",
+    "Title": "30",
+    "NBS Code": "48",
+    "NRM": "Landscape designer"
+  },
+  {
+    "Code": "Ro_50_30_94",
+    "Group": "50",
+    "Title": "30",
+    "NBS Code": "94",
+    "NRM": "Urban designer (T)"
+  },
+  {
+    "Code": "Ro_70",
+    "Group": "70",
+    "Title": "Site roles",
+    "NBS Code": "",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_70_10",
+    "Group": "70",
+    "Title": "10",
+    "NBS Code": "Surveyor and planner roles",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_70_10_10",
+    "Group": "70",
+    "Title": "10",
+    "NBS Code": "10",
+    "NRM": "Building inspector"
+  },
+  {
+    "Code": "Ro_70_10_11",
+    "Group": "70",
+    "Title": "10",
+    "NBS Code": "11",
+    "NRM": "Building surveyor (B)"
+  },
+  {
+    "Code": "Ro_70_10_16",
+    "Group": "70",
+    "Title": "10",
+    "NBS Code": "16",
+    "NRM": "Conservation surveyor"
+  },
+  {
+    "Code": "Ro_70_10_33",
+    "Group": "70",
+    "Title": "10",
+    "NBS Code": "33",
+    "NRM": "Geotechnical surveyor (G)"
+  },
+  {
+    "Code": "Ro_70_10_36",
+    "Group": "70",
+    "Title": "10",
+    "NBS Code": "36",
+    "NRM": "Heritage surveyor"
+  },
+  {
+    "Code": "Ro_70_10_46",
+    "Group": "70",
+    "Title": "10",
+    "NBS Code": "46",
+    "NRM": "Land surveyor (G)"
+  },
+  {
+    "Code": "Ro_70_10_64",
+    "Group": "70",
+    "Title": "10",
+    "NBS Code": "64",
+    "NRM": "Planning consultant"
+  },
+  {
+    "Code": "Ro_70_10_75",
+    "Group": "70",
+    "Title": "10",
+    "NBS Code": "75",
+    "NRM": "Quantity surveyor (Q)"
+  },
+  {
+    "Code": "Ro_70_10_80",
+    "Group": "70",
+    "Title": "10",
+    "NBS Code": "80",
+    "NRM": "Site investigation consultant"
+  },
+  {
+    "Code": "Ro_70_10_93",
+    "Group": "70",
+    "Title": "10",
+    "NBS Code": "93",
+    "NRM": "Utilities surveyor"
+  },
+  {
+    "Code": "Ro_70_30",
+    "Group": "70",
+    "Title": "30",
+    "NBS Code": "Environmental and geological roles",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_70_30_04",
+    "Group": "70",
+    "Title": "30",
+    "NBS Code": "04",
+    "NRM": "Archaeologist"
+  },
+  {
+    "Code": "Ro_70_30_27",
+    "Group": "70",
+    "Title": "30",
+    "NBS Code": "27",
+    "NRM": "Environmental assessor"
+  },
+  {
+    "Code": "Ro_70_30_28",
+    "Group": "70",
+    "Title": "30",
+    "NBS Code": "28",
+    "NRM": "Environmental consultant"
+  },
+  {
+    "Code": "Ro_70_30_35",
+    "Group": "70",
+    "Title": "30",
+    "NBS Code": "35",
+    "NRM": "Geographic information system consultant"
+  },
+  {
+    "Code": "Ro_70_30_39",
+    "Group": "70",
+    "Title": "30",
+    "NBS Code": "39",
+    "NRM": "Hydrologist"
+  },
+  {
+    "Code": "Ro_70_30_85",
+    "Group": "70",
+    "Title": "30",
+    "NBS Code": "85",
+    "NRM": "Sustainability consultant"
+  },
+  {
+    "Code": "Ro_70_30_94",
+    "Group": "70",
+    "Title": "30",
+    "NBS Code": "94",
+    "NRM": "Visual impact assessor"
+  },
+  {
+    "Code": "Ro_70_40",
+    "Group": "70",
+    "Title": "40",
+    "NBS Code": "Conservation and restoration roles",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_70_40_16",
+    "Group": "70",
+    "Title": "40",
+    "NBS Code": "16",
+    "NRM": "Conservator"
+  },
+  {
+    "Code": "Ro_70_40_71",
+    "Group": "70",
+    "Title": "40",
+    "NBS Code": "71",
+    "NRM": "Restorer"
+  },
+  {
+    "Code": "Ro_70_50",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "Building trades",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_70_50_02",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "02",
+    "NRM": "Access floor installer"
+  },
+  {
+    "Code": "Ro_70_50_07",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "07",
+    "NRM": "Bricklayer"
+  },
+  {
+    "Code": "Ro_70_50_09",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "09",
+    "NRM": "Builder's labourer"
+  },
+  {
+    "Code": "Ro_70_50_10",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "10",
+    "NRM": "Building insulation installer"
+  },
+  {
+    "Code": "Ro_70_50_12",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "12",
+    "NRM": "Carpenter"
+  },
+  {
+    "Code": "Ro_70_50_14",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "14",
+    "NRM": "Carpet fitter"
+  },
+  {
+    "Code": "Ro_70_50_16",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "16",
+    "NRM": "Ceiling installer"
+  },
+  {
+    "Code": "Ro_70_50_17",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "17",
+    "NRM": "Cement renderer"
+  },
+  {
+    "Code": "Ro_70_50_18",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "18",
+    "NRM": "Cladding installer"
+  },
+  {
+    "Code": "Ro_70_50_20",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "20",
+    "NRM": "Construction rigger"
+  },
+  {
+    "Code": "Ro_70_50_22",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "22",
+    "NRM": "Crane operator"
+  },
+  {
+    "Code": "Ro_70_50_26",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "26",
+    "NRM": "Earth moving labourer"
+  },
+  {
+    "Code": "Ro_70_50_30",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "30",
+    "NRM": "Fencing installer"
+  },
+  {
+    "Code": "Ro_70_50_32",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "32",
+    "NRM": "Flooring installer"
+  },
+  {
+    "Code": "Ro_70_50_34",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "34",
+    "NRM": "Glazier"
+  },
+  {
+    "Code": "Ro_70_50_37",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "37",
+    "NRM": "Hoist operator"
+  },
+  {
+    "Code": "Ro_70_50_44",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "44",
+    "NRM": "Joiner"
+  },
+  {
+    "Code": "Ro_70_50_45",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "45",
+    "NRM": "Landscape installer"
+  },
+  {
+    "Code": "Ro_70_50_46",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "46",
+    "NRM": "Landscape maintenance operative"
+  },
+  {
+    "Code": "Ro_70_50_47",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "47",
+    "NRM": "Lift operator"
+  },
+  {
+    "Code": "Ro_70_50_60",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "60",
+    "NRM": "Painter and decorator"
+  },
+  {
+    "Code": "Ro_70_50_61",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "61",
+    "NRM": "Partition installer"
+  },
+  {
+    "Code": "Ro_70_50_62",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "62",
+    "NRM": "Paving and surfacing installer"
+  },
+  {
+    "Code": "Ro_70_50_65",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "65",
+    "NRM": "Plasterer"
+  },
+  {
+    "Code": "Ro_70_50_72",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "72",
+    "NRM": "Roofer"
+  },
+  {
+    "Code": "Ro_70_50_76",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "76",
+    "NRM": "Scaffolder"
+  },
+  {
+    "Code": "Ro_70_50_83",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "83",
+    "NRM": "Steel erector"
+  },
+  {
+    "Code": "Ro_70_50_84",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "84",
+    "NRM": "Steel fixer"
+  },
+  {
+    "Code": "Ro_70_50_85",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "85",
+    "NRM": "Stonemason"
+  },
+  {
+    "Code": "Ro_70_50_88",
+    "Group": "70",
+    "Title": "50",
+    "NBS Code": "88",
+    "NRM": "Tiler"
+  },
+  {
+    "Code": "Ro_70_60",
+    "Group": "70",
+    "Title": "60",
+    "NBS Code": "Services trades",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_70_60_10",
+    "Group": "70",
+    "Title": "60",
+    "NBS Code": "10",
+    "NRM": "Cable layer"
+  },
+  {
+    "Code": "Ro_70_60_12",
+    "Group": "70",
+    "Title": "60",
+    "NBS Code": "12",
+    "NRM": "CCTV installer"
+  },
+  {
+    "Code": "Ro_70_60_25",
+    "Group": "70",
+    "Title": "60",
+    "NBS Code": "25",
+    "NRM": "Ductwork installer"
+  },
+  {
+    "Code": "Ro_70_60_27",
+    "Group": "70",
+    "Title": "60",
+    "NBS Code": "27",
+    "NRM": "Electrician"
+  },
+  {
+    "Code": "Ro_70_60_30",
+    "Group": "70",
+    "Title": "60",
+    "NBS Code": "30",
+    "NRM": "Fire detection and alarm system installer"
+  },
+  {
+    "Code": "Ro_70_60_33",
+    "Group": "70",
+    "Title": "60",
+    "NBS Code": "33",
+    "NRM": "Gas fitter"
+  },
+  {
+    "Code": "Ro_70_60_47",
+    "Group": "70",
+    "Title": "60",
+    "NBS Code": "47",
+    "NRM": "Lift installer"
+  },
+  {
+    "Code": "Ro_70_60_63",
+    "Group": "70",
+    "Title": "60",
+    "NBS Code": "63",
+    "NRM": "Pipe fitter"
+  },
+  {
+    "Code": "Ro_70_60_66",
+    "Group": "70",
+    "Title": "60",
+    "NBS Code": "66",
+    "NRM": "Plumber"
+  },
+  {
+    "Code": "Ro_70_60_77",
+    "Group": "70",
+    "Title": "60",
+    "NBS Code": "77",
+    "NRM": "Security alarm system installer"
+  },
+  {
+    "Code": "Ro_70_60_78",
+    "Group": "70",
+    "Title": "60",
+    "NBS Code": "78",
+    "NRM": "Services insulation intaller"
+  },
+  {
+    "Code": "Ro_70_60_81",
+    "Group": "70",
+    "Title": "60",
+    "NBS Code": "81",
+    "NRM": "Sprinkler system installer"
+  },
+  {
+    "Code": "Ro_70_60_87",
+    "Group": "70",
+    "Title": "60",
+    "NBS Code": "87",
+    "NRM": "Telecommunications installer"
+  },
+  {
+    "Code": "Ro_70_60_96",
+    "Group": "70",
+    "Title": "60",
+    "NBS Code": "96",
+    "NRM": "Welder"
+  },
+  {
+    "Code": "Ro_70_65",
+    "Group": "70",
+    "Title": "65",
+    "NBS Code": "Site management roles",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_70_65_66",
+    "Group": "70",
+    "Title": "65",
+    "NBS Code": "66",
+    "NRM": "Protection officer"
+  },
+  {
+    "Code": "Ro_70_65_79",
+    "Group": "70",
+    "Title": "65",
+    "NBS Code": "79",
+    "NRM": "Signalling technician"
+  },
+  {
+    "Code": "Ro_70_70",
+    "Group": "70",
+    "Title": "70",
+    "NBS Code": "Rail and road roles",
+    "NRM": ""
+  },
+  {
+    "Code": "Ro_70_70_37",
+    "Group": "70",
+    "Title": "70",
+    "NBS Code": "37",
+    "NRM": "Highways operative"
+  },
+  {
+    "Code": "Ro_70_70_68",
+    "Group": "70",
+    "Title": "70",
+    "NBS Code": "68",
+    "NRM": "Rail labourer"
+  },
+  {
+    "Code": "Ro_70_70_70",
+    "Group": "70",
+    "Title": "70",
+    "NBS Code": "70",
+    "NRM": "Rail track layer"
+  },
+  {
+    "Code": "Ro_70_70_72",
+    "Group": "70",
+    "Title": "70",
+    "NBS Code": "72",
+    "NRM": "Rail traction technician"
+  },
+  {
+    "Code": "Ro_70_70_85",
+    "Group": "70",
+    "Title": "70",
+    "NBS Code": "85",
+    "NRM": "Street works operative"
+  }
+]
