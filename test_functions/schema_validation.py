@@ -6,7 +6,7 @@ if __name__ == '__main__':
     # with open ('../schemas/definitions/contact') as f:
     #     schema = load(f)
 
-    with open ('../schemas/definitions/workbook-schema.json') as f:
+    with open('../schemas/workbook-schema.json') as f:
         schema = load(f)
 
     validator = Draft7Validator(schema)

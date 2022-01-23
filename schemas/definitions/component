@@ -1,23 +1,26 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://www.coie.uk/schema/component.json",
+  "$id": "https://www.coie.uk/schema/component",
   "title": "Component",
   "description": "A component in the information exchange, which importantly represents the smallest physical asset representation",
   "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "Name",
+    "CreatedBy",
+    "CreatedOn"
+  ],
   "properties": {
-    "name": {
+    "Name": {
       "description": "The unique id for a component on a contract / project",
       "type": "string",
       "example": "FCU-01-0001"
     },
-    "typeReference": {
-      "description": "the record that describes the common characteristics of a group of components",
-      "$ref": "https://www.coie.uk/schema/type.json"
+    "CreatedBy": {
+      "$ref" : "https://www.coie.uk/schema/definitions#/definitions/CreatedBy"
     },
-    "space": {
-      "description": "the record that describes the space (room) where this component can be accessed",
-      "$ref": "https://www.coie.uk/schema/space.json"
+    "CreatedOn": {
+      "$ref" : "https://www.coie.uk/schema/definitions#/definitions/CreatedOn"
     }
-  },
-  "required": [ "name" , "typeReference", "space"]
+  }
 }

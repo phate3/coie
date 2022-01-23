@@ -15,7 +15,41 @@ COie is written in JSON Schema and provides the ability to:
         Automated testing.
         Ensuring quality of client submitted data.
 
-#### The goal is to:
+
+##### COie-CORE
+
+schema will be live at www.coie.uk (not yet!)
+
+```
+- workbook-schema
+    - Instruction
+        -   [TBC]
+    - Extent (Facility)
+        - [Validation] Can only be 1 item in length
+    - Region
+        - [Validation] Primary keys in array must be unique
+        - [Validation] Each item conforms to region schema
+    - Contact
+        - [Validation] Primary keys in array must be unique
+        - [Validation] Each item conforms to contact schema
+    - Component
+        - [Validation] Primary keys in array must be unique
+        - [Validation] Each item conforms to component schema
+
+```
+
+Provides the base schema that forms the minimum technical requirement for an information exchange between two contracted parties (in the built environment, where the contract topic is about physical built assets)
+
+Using jsonschema as a base we set out the object that form the exchange model described by BS1192:4.
+
+Then including "title" tags and following we can generate a form:
+
+https://jsonform.github.io/jsonform/playground/
+
+`paste the code from above into the form website, you will now have generated a "COie Contact record"`
+
+
+#### COie-definitions:
 
 Provide the ability to specify, procure, deliver and assure data in a single unambiguous, open format and interoperable language.
 
@@ -71,30 +105,16 @@ Example COie contact schema definition, with a single file you can state the sha
     "required": [ "email" , "category", "company", "phone"]
   }
   }
-```    
-
-##### COie-CORE
-
-schema will be live at www.coie.uk (not yet!)
-
-Provides the base schema that forms the minimum technical requirement for an information exchange between two contracted parties (in the built environment, where the contract topic is about physical built assets)
-
-Using jsonschema as a base we set out the object that form the exchange model described by BS1192:4.
-
-Then including "title" tags and following we can generate a form:
-
-https://jsonform.github.io/jsonform/playground/
-
-`paste the code from above into the form website, you will now have generated a "COie Contact record"`
-
-
-
-##### COie-REQUIREMENT 
-Provides extensiblity required to extend COie-CORE to suit a specific purpose. 
+```   
 
 
 
 # WORK IN PROGRESS
+
+
+##### COie-Exchange Requirements 
+Provides extensiblity required to extend COie-CORE to suit a specific purpose. 
+
 
 Areas of Interest / Context:
 

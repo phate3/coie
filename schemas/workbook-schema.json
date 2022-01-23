@@ -1,0 +1,119 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://www.coie.uk/schema/workbook-schema",
+	"title": "Root",
+	"type": "object",
+	"required": [
+		"Instruction",
+		"Contact",
+		"Extent",
+		"Region",
+		"Feature",
+		"Zone",
+		"Type",
+		"Component",
+		"System",
+		"Assembly",
+		"Connection",
+		"Spare",
+		"Resource",
+		"Job",
+		"Impact",
+		"Document",
+		"Attribute",
+		"Coordinate",
+		"Issue",
+		"PickLists"
+	],
+	"properties":
+	{
+		"Instruction": {
+			"$id": "#root/Instruction",
+			"title": "Instruction",
+			"type": "array",
+			"default": [],
+			"items":{
+				"$id": "#root/Instruction/items",
+				"title": "Items",
+				"type": "object",
+				"required": [
+				],
+				"properties": {
+				}
+			}
+		},
+		"Extent": {
+			"$id": "#root/Extent",
+			"title": "Extent",
+			"type": "array",
+			"default": [],
+			"items":{
+				"$ref": "https://www.coie.uk/schema/extent"
+			},
+			"maxItems": 1
+		},
+		"Region": {
+			"$id": "#root/Region",
+			"title": "Region",
+			"type": "array",
+			"default": [],
+			"items":{
+				"$ref": "https://www.coie.uk/schema/region"
+			},
+			"uniqueItems": true
+		},
+		"Feature": {
+			"$id": "#root/Feature",
+			"title": "Feature",
+			"type": "array",
+			"default": [],
+			"items":{
+				"$ref": "https://www.coie.uk/schema/feature"
+			},
+			"uniqueItems": true
+		},
+		"Zone": {
+			"$id": "#root/Zone",
+			"title": "Zone",
+			"type": "array",
+			"default": [],
+			"items":{
+				"$ref": "https://www.coie.uk/schema/zone"
+			},
+			"uniqueItems": true
+		},
+		"Type": {
+			"$id": "#root/Type",
+			"title": "Type",
+			"type": "array",
+			"default": [],
+			"items":{
+				"$ref": "https://www.coie.uk/schema/type"
+			},
+			"uniqueItems": true
+		},
+
+		"Contact": {
+			"$id": "#root/Contact",
+			"title": "Contact",
+			"type": "array",
+			"default": [],
+			"items":{
+				"$ref": "https://www.coie.uk/schema/contact"
+			},
+			"uniqueItems": true
+		},
+		"Component": {
+			"$id": "#root/Component",
+			"title": "Component",
+			"type": "array",
+			"default": [],
+			"items":{
+				"$ref": "https://www.coie.uk/schema/component"
+			},
+			"uniqueItems": true
+		}
+	}
+}
+
