@@ -18,22 +18,22 @@ COie is written in JSON Schema and provides the ability to:
 
 ##### COie-CORE
 
-schema will be live at www.coie.uk (not yet!)
+Example workbook schema: https://www.coie.uk/schema/workbook-schema
 
 ```
 - workbook-schema
     [Validation] All named data sets (sheets) are required (even if empty)
     - Instruction
         -   [TBC]
-    - Contact
+    - Contact 
         - [Validation] Primary keys in array must be unique
         - [Validation] Each item conforms to contact schema
-    - Extent (Facility)
+    - Extent 
         - [Validation] Can only be 1 item in length
-    - Region
+    - Region 
         - [Validation] Primary keys in array must be unique
         - [Validation] Each item conforms to region schema
-    - Feature
+    - Feature 
         - [Validation] Primary keys in array must be unique
         - [Validation] Each item conforms to feature schema
     - Zone
