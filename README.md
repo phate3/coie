@@ -24,14 +24,23 @@ schema will be live at www.coie.uk (not yet!)
 - workbook-schema
     - Instruction
         -   [TBC]
+    - Contact
+        - [Validation] Primary keys in array must be unique
+        - [Validation] Each item conforms to contact schema
     - Extent (Facility)
         - [Validation] Can only be 1 item in length
     - Region
         - [Validation] Primary keys in array must be unique
         - [Validation] Each item conforms to region schema
-    - Contact
+    - Feature
         - [Validation] Primary keys in array must be unique
-        - [Validation] Each item conforms to contact schema
+        - [Validation] Each item conforms to feature schema
+    - Zone
+        - [Validation] Primary keys in array must be unique
+        - [Validation] Each item conforms to zone schema
+    - Type
+        - [Validation] Primary keys in array must be unique
+        - [Validation] Each item conforms to type schema
     - Component
         - [Validation] Primary keys in array must be unique
         - [Validation] Each item conforms to component schema

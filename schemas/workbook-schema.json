@@ -43,6 +43,16 @@
 				}
 			}
 		},
+		"Contact": {
+			"$id": "#root/Contact",
+			"title": "Contact",
+			"type": "array",
+			"default": [],
+			"items":{
+				"$ref": "https://www.coie.uk/schema/contact"
+			},
+			"uniqueItems": true
+		},
 		"Extent": {
 			"$id": "#root/Extent",
 			"title": "Extent",
@@ -94,16 +104,7 @@
 			"uniqueItems": true
 		},
 
-		"Contact": {
-			"$id": "#root/Contact",
-			"title": "Contact",
-			"type": "array",
-			"default": [],
-			"items":{
-				"$ref": "https://www.coie.uk/schema/contact"
-			},
-			"uniqueItems": true
-		},
+
 		"Component": {
 			"$id": "#root/Component",
 			"title": "Component",
