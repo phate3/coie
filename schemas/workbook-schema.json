@@ -103,8 +103,6 @@
 			},
 			"uniqueItems": true
 		},
-
-
 		"Component": {
 			"$id": "#root/Component",
 			"title": "Component",

@@ -22,6 +22,7 @@ schema will be live at www.coie.uk (not yet!)
 
 ```
 - workbook-schema
+    [Validation] All named data sets (sheets) are required (even if empty)
     - Instruction
         -   [TBC]
     - Contact
