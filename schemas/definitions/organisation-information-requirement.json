@@ -26,7 +26,7 @@
     },
     "externalClassification": {
       "title": "External classification of requirement",
-      "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-04/uniclass2015_ro_v1_5.xlsx code best describing contact",
+      "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-10/uniclass2015_pm_v1_14.xlsx code best fits the requirement (and provides a unique mapping code for the organisation)",
       "type": "string",
       "example": "Pm_10_20:Client Requirement"
     },
@@ -91,7 +91,7 @@
         },
         "completeness": {
           "title": "Information completeness",
-          "description": "PThe scope, depth and coverage of information. For example, the requirement that assets include a full list of materials",
+          "description": "The scope, depth and coverage of information. For example, the requirement that assets include a full list of materials",
           "type": "string"
         },
         "relevance": {
