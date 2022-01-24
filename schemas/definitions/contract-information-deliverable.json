@@ -1,27 +1,51 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://www.coie.uk/schema/contract-information-deliverable",
-  "title": "Contract Information Deliverable",
-  "description": "A single information deliverable, from one contracted party to another, in the information exchange",
-  "type": "object",
-
-  "additionalProperties": true,
-
-  "required": [
-        "Name" ,
-        "Category"
+  "schema": {
+    "contractInformationDeliverables": {
+      "type": "array",
+      "items": {
+        "$id": "https://www.coie.uk/schema/contract-information-deliverable",
+        "title": "Contract Information Deliverables",
+        "description": "A single information deliverable, from one contracted party to another, in the information exchange",
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "name",
+          "externalClassification",
+          "sourceOrganisation",
+          "deliverableStatus"
         ],
-
-  "properties": {
-    "Name": {
-      "description": "The unique id for a single information deliverable within a contract setting[project]. ISO19650 naming convention",
-      "type": "string",
-      "example": "ABC123-INF-U101-FL01-M3-A-0001"
-    }
-    "Category": {
-      "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-10/uniclass2015_pm_v1_14.xlsx code best describing contact",
-      "type": "string",
-      "example": "Pm_10_20:Client Requirement"
+        "properties": {
+          "name": {
+            "title": "Name of deliverable",
+            "description": "The unique id for a single information deliverable within a contract setting[project]. ISO19650 naming convention",
+            "type": "string",
+            "example": "ABC123-ACM-U101-FL01-M3-A-0001"
+          },
+          "externalClassification": {
+            "title": "Classification of deliverable",
+            "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-10/uniclass2015_pm_v1_14.xlsx code best describing contact",
+            "type": "string",
+            "example": "Pm_10_20:Client Requirement"
+          },
+          "sourceOrganisation": {
+            "title": "Organisation providing deliverable",
+            "description": "The party that the information was procured from",
+            "type": "string",
+            "example": "ACME Data Ltd"
+          },
+          "deliverableStatus": {
+            "title": "Status of the deliverable",
+            "description": "The status of the deliverable",
+            "type": "string",
+            "enum": [
+              "WIP",
+              "Shared",
+              "Published"
+            ],
+            "example": "Published"
+          }
+        }
+      }
     }
   }
 }

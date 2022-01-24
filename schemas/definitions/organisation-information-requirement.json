@@ -1,10 +1,10 @@
 {
   "schema": {
-    "Organisation Information Requirement": {
+    "organisationInformationRequirements": {
       "type": "array",
       "items": {
         "type": "object",
-        "title": "OIR",
+        "title": "Organisation Information Requirements",
         "properties": {
           "name": {
             "title": "ID of requirement",
