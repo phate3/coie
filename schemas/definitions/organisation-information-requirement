@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.coie.uk/schema/organisation-information-requirement",
+  "title": "Organisation Information Requirement",
+  "description": "An organisation information requirement schema",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "name",
+    "requirementAsQuestion",
+    "externalClassification",
+    "requirementQuestionnaire"
+  ],
+  "properties": {
+    "name": {
+      "title": "ID of requirement",
+      "description": "The unique id for a single organisation requirement",
+      "type": "string",
+      "example": "OIR-0001"
+    },
+    "CreatedBy": {
+      "$ref": "https://www.coie.uk/schema/definitions#/definitions/CreatedBy"
+    },
+    "CreatedOn": {
+      "$ref": "https://www.coie.uk/schema/definitions#/definitions/CreatedOn"
+    },
+    "externalClassification": {
+      "title": "External classification of requirement",
+      "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-04/uniclass2015_ro_v1_5.xlsx code best describing contact",
+      "type": "string",
+      "example": "Pm_10_20:Client Requirement"
+    },
+    "requirementQuestionnaire": {
+      "description": "A plain language questionnaire which articulates the business need for a specific type of information",
+      "type": "object",
+      "properties": {
+        "source": {
+          "title": "Source of information",
+          "description": "Provide a specification of how the information will be acquired",
+          "type": "string"
+        },
+        "format": {
+          "title": "Format of information",
+          "description": "Provide a specification for the information that is being required e.g. specific date-time",
+          "type": "string"
+        },
+        "transformation": {
+          "title": "Transformations of information",
+          "description": "Provide detail of any transformations that will be applied upon receipt of the information, such as contract completion status",
+          "type": "string"
+        },
+        "calculation": {
+          "title": "Calculations about the information",
+          "description": "Provide any calculations or formula used for calculating specific metrics",
+          "type": "string"
+        },
+        "timeliness": {
+          "title": "Timeliness requirements",
+          "description": "Provide a specification for the frequency that this information is expected to be updated",
+          "type": "string"
+        },
+        "structure": {
+          "title": "Information structure",
+          "description": "Provide a specification for the information structure such as andy classifications, tags, hierarchies or templates",
+          "type": "string"
+        },
+        "controls": {
+          "title": "Information controls",
+          "description": "Provide any specific controls for information authentication or authorisation",
+          "type": "string"
+        },
+        "information-security": {
+          "title": "Information security",
+          "description": "Provide a specification for any requirements the information be secured from unauthorized access, deletion, modification or disruption",
+          "type": "string"
+        },
+        "integrity": {
+          "title": "Information integrity",
+          "description": "Provide a specifications for the quality of information such as validation rules",
+          "type": "string"
+        },
+        "credibility": {
+          "title": "Information credibility",
+          "description": "Provide a specification for any concerns for the credibility of information such as a list of trusted sources",
+          "type": "string"
+        },
+        "availability": {
+          "title": "Information availability",
+          "description": "Provide a specification for any any information availability requirements such as up-time",
+          "type": "string"
+        },
+        "completeness": {
+          "title": "Information completeness",
+          "description": "PThe scope, depth and coverage of information. For example, the requirement that assets include a full list of materials",
+          "type": "string"
+        },
+        "relevance": {
+          "title": "Information relevance",
+          "description": "Provide any specification guiding the relevance of the information, such as the technical manual for an asset must exclude any un-related literature",
+          "type": "string"
+        },
+        "usability": {
+          "title": "Information usability",
+          "description": "Provide any specification relating to how the information will be used, such as 3D models that must be viewable in any web browser",
+          "type": "string"
+        },
+        "readability": {
+          "title": "Information readability",
+          "description": "Provide any related requirements in areas such as language, fonts, data-schema",
+          "type": "string"
+        }
+      }
+    }
+  }
+}
+
+

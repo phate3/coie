@@ -144,3 +144,13 @@ ORGANISED BY:
 * DEFINITIONS
 * EXCHANGE MODEL
 * EXCHANGE MODEL REQUIREMENTS
+
+```
+Deliverable schema:
+
+- unique ID is by name. 
+    - 19650 regex pattern can be worked out for minimum validation
+    - complex validation possible but might need a parsed name into segments for comparison to lists. 
+ 
+
+```

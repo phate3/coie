@@ -29,7 +29,7 @@
   ],
   "Contact": [
     {
-      "Email": "eim@dept.gov.uk",
+      "Email": [{
       "CreatedBy": "eim@dept.gov.uk",
       "CreatedOn": "2021-11-01T10:12:49",
       "Category": "Ro_30_40_86 Supplier",
