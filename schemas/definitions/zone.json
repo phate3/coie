@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.coie.uk/schema/zone",
+  "title": "Zone",
+  "description": "A contact in the information exchange",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+        "Name",
+            "CreatedBy",
+            "CreatedOn",
+            "Category",
+            "SpaceNames",
+            "ExtSystem",
+            "ExtObject",
+            "ExtIdentifier",
+            "Description"
+                ],
+  "properties": {
+    "Name": {
+      "description": "",
+      "type": "string",
+      "example": "AB01",
+      "pattern": ""
+    },
+    "CreatedBy": {
+      "$ref" : "https://www.coie.uk/schema/definitions#/definitions/CreatedBy"
+    },
+    "CreatedOn": {
+      "$ref" : "https://www.coie.uk/schema/definitions#/definitions/CreatedOn"
+    },
+    "Category": {
+      "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-04/uniclass2015_ro_v1_5.xlsx code best describing contact",
+      "type": "string",
+      "example": "Ro_10:Management roles"
+    }
+  }
+}
+
+

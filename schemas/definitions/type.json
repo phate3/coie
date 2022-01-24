@@ -1,0 +1,44 @@
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.coie.uk/schema/type",
+  "title": "Type",
+  "description": "A contact in the information exchange",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "Name",
+    "CreatedBy",
+    "CreatedOn",
+    "Category",
+    "Manufacturer",
+    "ModelNumber"
+  ],
+  "properties": {
+    "Name": {
+      "description": "The unique id for a component on a contract / project",
+      "type": "string",
+      "example": "Type_FCU-400"
+    },
+    "CreatedBy": {
+      "$ref" : "https://www.coie.uk/schema/definitions#/definitions/CreatedBy"
+    },
+    "CreatedOn": {
+      "$ref" : "https://www.coie.uk/schema/definitions#/definitions/CreatedOn"
+    },
+    "Category": {
+      "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-10/uniclass2015_pr_v1_24.xlsx",
+      "type": "string"
+    },
+    "Manufacturer": {
+      "description": "the id of the space where the component can be accessed",
+      "type": "string"
+    },
+    "ModelNumber": {
+      "description": "Organisation that the contact record represents",
+      "type": "string"
+    }
+  }
+}
+
+
