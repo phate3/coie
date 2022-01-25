@@ -123,6 +123,9 @@ Example COie contact schema definition, with a single file you can state the sha
 
 # WORK IN PROGRESS
 
+[possible use cases]
+* https://better.engineering/jsonschema2db/
+* https://jsonforms.io/
 
 ##### COie-Exchange Requirements 
 Provides extensiblity required to extend COie-CORE to suit a specific purpose. 

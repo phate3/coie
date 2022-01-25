@@ -4,21 +4,20 @@
       "type": "array",
       "items": {
         "type": "object",
-        "title": "Organisation Information Requirements",
+        "title": "Gateway - Plain Language Questions",
         "properties": {
-          "name": {
-            "title": "ID of requirement",
-            "description": "The unique id for a single organisation requirement",
+          "gatewayID": {
+            "title": "ID of gateway",
+            "description": "The unique id for a gateway definition to the organisation",
             "type": "string",
-            "example": "OIR-0001"
+            "example": "Gateway 1 - Strategic Business Case"
           },
-          "externalClassification": {
-            "title": "External classification of requirement",
-            "description": "https://www.thenbs.com/-/media/uk/files/xls/uniclass/2021-10/uniclass2015_pm_v1_14.xlsx code best fits the requirement (and provides a unique mapping code for the organisation)",
-            "type": "string",
-            "example": "Pm_10_20:Client Requirement"
+          "gatewayDescription": {
+            "title": "Description",
+            "description": "Describe the purpose of the gateway plain language questionnaire and its intended ",
+            "type": "string"
           },
-          "requirementStatus": {
+          "gatewayStatus": {
             "title": "Status of OIR",
             "description": "The status of the OIR",
             "type": "string",
