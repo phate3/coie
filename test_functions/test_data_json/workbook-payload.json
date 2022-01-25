@@ -115,7 +115,7 @@
   ],
   "Extent": [
     {"Name":"DRV006",
-      "CreatedBy":"eim@environment-agency.gov.uk",
+      "CreatedBy":"eim@dept.gov.uk",
       "CreatedOn":"2021-10-19T16:47:12",
       "Category":"Co_32_55_30 Flood protection complexes",
       "ProjectName":"RTS Lead Planning Delivery Service",
@@ -140,7 +140,7 @@
   "Region": [
     {
     "Name":"3C1",
-      "CreatedBy":"eim@environment-agency.gov.uk",
+      "CreatedBy":"eim@dept.gov.uk",
       "CreatedOn":"2021-08-27T10:31:00",
       "Category":"Location",
       "ExtSystem":"",
@@ -152,7 +152,7 @@
     },
     {
     "Name":"3C2",
-      "CreatedBy":"eim@environment-agency.gov.uk",
+      "CreatedBy":"eim@dept.gov.uk",
       "CreatedOn":"2021-08-27T10:31:00",
       "Category":"Location",
       "ExtSystem":"",

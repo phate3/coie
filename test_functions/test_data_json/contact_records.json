@@ -2,7 +2,7 @@
   "Contacts": [
     {
       "Email": "eim.defra.gov.uk",
-      "CreatedBy": "eim.environment-agency.gov.uk",
+      "CreatedBy": "eim.dept.gov.uk",
       "CreatedOn": "2021-11-01T10:12:49",
       "Category": "Ro_30_40_86 Supplier",
       "Company": "DEFRA",
@@ -22,8 +22,8 @@
       "Country": ""
     },
     {
-      "Email": "eim.environment-agency.gov.uk",
-      "CreatedBy": "eim.environment-agency.gov.uk",
+      "Email": "eim.dept.gov.uk",
+      "CreatedBy": "eim.dept.gov.uk",
       "CreatedOn": "2021-11-01T10:12:49",
       "Category": "Ro_30_10_67 Project manager",
       "Company": "Environment Agency",
@@ -44,7 +44,7 @@
     },
     {
       "Email": "eim.lingwellconsulting.com",
-      "CreatedBy": "eim.environment-agency.gov.uk",
+      "CreatedBy": "eim.dept.gov.uk",
       "CreatedOn": "2021-11-01T10:12:49",
       "Category": "Ro_30_10_67 Project manager",
       "Company": "The Construction Industry Council",
@@ -65,7 +65,7 @@
     },
     {
       "Email": "sim.binnies.com",
-      "CreatedBy": "eim.environment-agency.gov.uk",
+      "CreatedBy": "eim.dept.gov.uk",
       "CreatedOn": "2021-11-01T10:12:49",
       "Category": "Ro_30_40_86 Supplier",
       "Company": "Binnies UK Ltd",
