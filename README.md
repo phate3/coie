@@ -1,13 +1,13 @@
-# Geo Information Exchange Model
+# Construction and Operation information exchange model
 
 ## An open data standard supporting information exchange related to real world assets
 
 Definitions using json schema for the contractual construction / built environment 
-inforrmation exchanges relating to physical real world assets.
+information exchanges relating to physical real world assets.
 
 (This schema has been developed with respect to BS1192:4, ISO 19650 and any UK annexes)
 
-Giem is written in JSON Schema and provides the ability to:
+COie is written in JSON Schema and provides the ability to:
 
     Describe your existing data format(s).
     Provides clear human- and machine- readable documentation.
