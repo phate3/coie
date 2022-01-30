@@ -19,7 +19,22 @@ information exchanges relating to physical real world assets.
     - ✨Magic ✨
 
 
+### Why use COie with JSON?: 
+> ###  COie is primarily about data understanding and interoperability. 
+
+These things become difficult when there are many data resources, constructed and used by many developers or data analysts. COie can help when those problems emerge, by providing:
+
+> - Meaningful data names and machine-readable documentation
+> - Global identifiers for data components
+> - Self-describing data
+> - Reuse of community-agreed data definitions
+
+
+
 ##### COie-CORE
+
+The primary definitions will be defined using Json, Json-LD and Jsonschema
+
 
 Example workbook schema: https://www.coie.uk/schema/workbook-schema
 
@@ -129,6 +144,7 @@ Example COie contact schema definition, with a single file you can state the sha
 [possible use cases]
 * https://better.engineering/jsonschema2db/
 * https://jsonforms.io/
+* 
 
 ##### COie-Exchange Requirements 
 Provides extensiblity required to extend COie-CORE to suit a specific purpose. 
