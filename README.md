@@ -1,19 +1,22 @@
-# Construction and Operation information exchange model
+# COie 
+## A national information exchange model for geospatial assets
 
-## An open data standard supporting information exchange related to real world assets
+> geospatial: of or relating to the relative position of things on the earth's surface
 
-Definitions using json schema for the contractual construction / built environment 
+
+Definitions for the contractual construction / built environment 
 information exchanges relating to physical real world assets.
 
 (This schema has been developed with respect to BS1192:4, ISO 19650 and any UK annexes)
 
-COie is written in JSON Schema and provides the ability to:
 
-    Describe your existing data format(s).
-    Provides clear human- and machine- readable documentation.
-    Validates data which is useful for:
-        Automated testing.
-        Ensuring quality of client submitted data.
+## Features
+- Describe your existing data format(s).
+- Provides clear human- and machine- readable documentation.
+- Validates data which is useful for:
+    - Automated testing.
+    - Ensuring quality of client submitted data.
+    - ✨Magic ✨
 
 
 ##### COie-CORE
@@ -121,7 +124,7 @@ Example COie contact schema definition, with a single file you can state the sha
 
 
 
-# WORK IN PROGRESS
+# ALL WORK IN PROGRESS
 
 [possible use cases]
 * https://better.engineering/jsonschema2db/
