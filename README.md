@@ -38,11 +38,10 @@ COie JSON is self-describing because:
 - That context maps each key string to a URI for a data element.
 - The resource for that URI is machine-readable documentation of the data element’s meaning.
 
-```
-This means that developers and data scientists can always tell whether a key in one resource has the same 
+
+> This means that developers and data scientists can always tell whether a key in one resource has the same 
 meaning as a key in another resource. It also means they can learn that meaning by obtaining the data element resource. 
 These are valuable properties in any large enterprise with many different data resources.
-```
 
 
 ##### COie-CORE
