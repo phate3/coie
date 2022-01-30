@@ -20,7 +20,7 @@ information exchanges relating to physical real world assets.
 
 
 ### Why use COie with JSON?: 
-> ###  COie is primarily about data understanding and interoperability. 
+#####  COie is primarily about data understanding and interoperability. 
 
 These things become difficult when there are many data resources, constructed and used by many developers or data analysts. COie can help when those problems emerge, by providing:
 
@@ -29,6 +29,20 @@ These things become difficult when there are many data resources, constructed an
 > - Self-describing data
 > - Reuse of community-agreed data definitions
 
+
+## Self-Describing Data
+
+COie JSON is self-describing because:
+
+- It is always associated with a JSON-LD context.
+- That context maps each key string to a URI for a data element.
+- The resource for that URI is machine-readable documentation of the data element’s meaning.
+
+```
+This means that developers and data scientists can always tell whether a key in one resource has the same 
+meaning as a key in another resource. It also means they can learn that meaning by obtaining the data element resource. 
+These are valuable properties in any large enterprise with many different data resources.
+```
 
 
 ##### COie-CORE
