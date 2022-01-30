@@ -1,13 +1,13 @@
-# COie-json
+# Geo Information Exchange Model
 
-## An open data standard supporting information exchange
+## An open data standard supporting information exchange related to real world assets
 
-Definitions using json schema for the contractual construction and 
-operation exchanges of information relating to physical real world assets.
+Definitions using json schema for the contractual construction / built environment 
+inforrmation exchanges relating to physical real world assets.
 
 (This schema has been developed with respect to BS1192:4, ISO 19650 and any UK annexes)
 
-COie is written in JSON Schema and provides the ability to:
+Giem is written in JSON Schema and provides the ability to:
 
     Describe your existing data format(s).
     Provides clear human- and machine- readable documentation.
