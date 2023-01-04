@@ -7,7 +7,7 @@
 Definitions for the contractual construction / built environment 
 information exchanges relating to physical real world assets.
 
-(This schema has been developed with respect to BS1192:4, ISO 19650 and any UK annexes)
+(This schema is being developed with respect to BS1192:4, ISO 19650 and any UK annexes)
 
 
 ## Features
